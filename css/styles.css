@@ -1,19 +1,34 @@
 body {
-    background-color: #fcfefe;
+    margin: 0;
 }
-hr {
-    border: none;
-    background-color: #fcfefe;
-    height: 2px;
-    width: 5%;
-    border-top-style: dotted;
-    border-top-width: 10px;
-    color: grey;
+/* div {
+    background-color: #8fc0a9;
+} */
 
-}
 h1 {
-    color: #66bfbf;
+    margin-block-start: 0em;
+} 
+
+
+
+.top-container {
+    height: 200px;
+    padding: 20px;
+    width: 200px;
+    background-color: #8fc0a9;
+    border: solid 10px;
 }
-h3 {
-    color: #66bfbf;
+.middle-container {
+    margin-left: 260px;
+    border: solid 20px;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.bottom-container {
+    margin-left: 500px;
+    border: solid 10px;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
 }
