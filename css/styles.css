@@ -25,6 +25,12 @@ h1 {
     width: 200px;
     background-color: red;
 }
+
+.middle-container:hover {
+    margin-left: 260px;
+    border: solid 30px;
+}
+
 .bottom-container {
     margin-left: 500px;
     border: solid 10px;
